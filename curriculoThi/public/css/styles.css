@@ -1,0 +1,93 @@
+:root {
+    --primaria: #7E49F2;
+    --secundaria: #262473;
+    --hover: #ffffff;
+    --texto: white;
+    --titulo: #222A59;
+    --detalhe: #3F2140;
+    --dark: #0D0D0D;
+
+  }
+
+
+/* GERAL */
+
+
+body{
+    background-color: var(--dark);
+    color: var(--texto);
+}
+
+footer{
+    padding-top: 100px;
+}
+
+
+  /* ITEM ESPECIFICOS */
+
+#formulario-card{
+    padding-top: 100px;
+}
+#barra{
+
+    background-color: var(--dark);
+    color: var(--texto);
+    opacity: "50%";
+
+}
+
+#container-main{
+
+    background-image: url("/imgs/Gradient-23.png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+    padding: 80px;
+    text-align: center;
+
+    color: var(--primaria);
+}
+
+
+#nome-titulo{
+    font-size: 100px;
+    padding-top: 150px;
+    color: var(--texto);
+}
+
+#fab-redes:hover{
+
+    background-color: var(--hover);
+
+    border: 2px solid var(--primaria);
+
+    color: var(--primaria);
+}
+
+#fab-redes{
+
+background-color: var(--primaria);
+
+}
+
+#fab-btn-zap:hover{
+    color: green;
+}
+#fab-btn-face:hover{
+    color: blue;
+}
+#fab-btn-git:hover{
+    color: var(--primaria);
+}
+#fab-btn-insta:hover{
+    color: rgb(255, 24, 178);
+}
+
+#card{
+    background-color: var(--secundaria);
+}
+
+#subtitulo{
+    text-shadow:2px 2px 0.2em #0d0d0da8;
+}

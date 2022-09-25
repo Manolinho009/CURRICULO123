@@ -1,0 +1,56 @@
+/*THIAGO*/
+PESSOA{
+    NOME
+    IDADE
+    SEXO
+    FOTO
+
+
+    cusos{
+        INSTITUIÇÃO
+        CURSO
+        CONCLUSÃO
+        LOCAL
+    }
+
+
+    DESCRIÇÃO
+
+
+    EXPERIENCIA{
+        EMPRESA
+        PERIODO
+        CARGO
+        DESCRIÇÃO
+    }
+
+
+    LINKS{
+    [NOME:LINK]
+    }
+
+
+    CONTATO{
+        TELEFONE
+        EMAIL
+    }
+
+
+    COPETENCIAS{
+        [NOME:COPETENCIA]
+    }
+
+
+    IDIOMAS{[]}
+
+
+    OBSERVAÇÃO{
+        [NOME:OBSERVAÇÃO{
+            DESCRIÇÃO
+            TITULO
+        }]
+    }
+
+
+    TITULO
+}
